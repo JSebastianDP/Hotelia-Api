@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(express.static('public'));
 app.use('/public', express.static('public/upload'));
 
-app.use('/habitaciones',rutasHab);
+app.use('/habitaciones', rutasHab);
 app.use('/users', rutasUs);
 app.use('/reservas', rutasRes);
 
